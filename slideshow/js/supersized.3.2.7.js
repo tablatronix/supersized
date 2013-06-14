@@ -646,8 +646,6 @@
 
 		    var transition = base.options.slides[loadSlide].transition ? base.options.slides[loadSlide].transition : base.options.transition;
 
-		    console.log(transition);
-
 		    switch(transition){
 	    		case 0: case 'none':	// No transition
 	    		    nextslide.css('visibility','visible'); vars.in_animation = false; base.afterAnimation();
